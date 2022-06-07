@@ -1,18 +1,17 @@
+![KakaoTalk_20220530_134017302](https://user-images.githubusercontent.com/81956540/172401405-4b5ded64-4d42-48aa-bc0e-bd0f5a21cbc7.jpg)
 ## 티처블 머신을 활용한 이미지 분류 프로젝트
-- **주제**  : 티처블 머신으로 만든 분류 모델과 카메라를 이용해 카미봇이 블록 지도에서 특정 나라(위치)로 이동
-- **유형**  : Classification
-- **개발**  : Kamibot, Jupyter Notebook, Python, Keras, Opencv
+### 주제
+티처블 머신으로 만든 분류 모델과 카메라를 이용해 카미봇이 블록 지도에서 특정 나라(위치)로 이동
+### 개발
+Kamibot, Jupyter Notebook, Python, Keras, Opencv
+### 유형
+Classification
+### 알고리즘
+- **이미지 분류 모델** : 티처블 머신을 통해 제작
+- **나라를 인식하는 과정** : keras와 opencv를 통해 구현
+- **이동 과정**: 카미봇 라이브러리 내장 함수 사용
 
-## 알고리즘
-- **Data** : 신용카드 사용자들의 개인 신상정보
-- **Shape** : (26457, 17)
-- **출처**: https://mp.weixin.qq.com/s/upjzuPg5AMIDsGxlpqnoCg
+![카미봇 알고리즘](https://user-images.githubusercontent.com/81956540/172400852-e451fbcf-86c3-4153-8990-89500e616764.png)
 
-## 사용 자료
-- **Train** : 2 LGBMClassifier, 1 XGBClassifier
-- **Stacking** : LGBMClassifier
 
-## 평가
-- **Metric** : Logloss
-- **Public Score** : 0.69909
-- **Private Score** : 0.67894 (7th)
+
